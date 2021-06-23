@@ -1,10 +1,5 @@
 module.exports = {
   extend: '@vuepress/theme-default',
-  markdown: {
-    extendMarkdown: md => {
-      md.use(require('markdown-it-attrs'));
-    }
-  },
   plugins: [
     [
       'vuepress-plugin-code-copy',

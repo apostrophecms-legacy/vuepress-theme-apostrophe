@@ -18,7 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.2",
-    "markdown-it-attrs": "^4.0.0",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
