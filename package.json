@@ -16,14 +16,16 @@
   ],
   "author": "Apostrophe Technologies",
   "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "markdown-it-attrs": "^4.0.0",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
   "peerDependencies": {
-    "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "esm": "^3.2.25",
-    "markdown-it": "9.0.0 < 13.0.0",
-    "markdown-it-attrs": "^4.0.0",
-    "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "markdown-it": "9.0.0 < 13.0.0"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
