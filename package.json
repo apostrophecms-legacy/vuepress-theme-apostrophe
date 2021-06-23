@@ -18,7 +18,9 @@
   "license": "MIT",
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.2",
-    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  },
+  "peerDependencies": {
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
