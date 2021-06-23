@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css");
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  letter-spacing: -0.75px;
+  border-bottom: none;
+}
+h1 {
+  font-size: 2.62rem;
+a
+}
+h2 {
+  font-size: 2.62rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.56rem;
+}
+p.large {
+  font-size: 1.125rem;
+}
+code,
+div[class*='language-'] {
+  font-family: Hack, monospace;
+}
+.theme-default-content a code {
+  background-color: $accentColorLight;
+  color: $accentColor;
+}

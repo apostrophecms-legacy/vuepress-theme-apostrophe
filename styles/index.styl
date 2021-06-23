@@ -1,0 +1,19 @@
+@import 'type.styl';
+@import 'ordinal.styl';
+@import 'navbar.styl';
+@import 'code.styl';
+@import 'wrapper.styl';
+@import 'note.styl';
+
+table {
+  // Line height applied to paragraphs, used to make tables easier to read.
+  line-height: 1.7
+}
+
+// Overriding default theme
+.sidebar-group.sidebar-group.is-sub-group > .sidebar-heading
+  font-size: 1em
+
+.sidebar-group.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable)
+  opacity: 1
+  cursor: pointer

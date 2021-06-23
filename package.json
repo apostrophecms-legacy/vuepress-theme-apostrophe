@@ -1,0 +1,39 @@
+{
+  "name": "vuepress-theme-apostrophe",
+  "version": "1.0.0",
+  "description": "Vuepress theme for ApostropheCMS documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuepress",
+    "theme",
+    "apostrophecms",
+    "apostrophe",
+    "cms",
+    "node"
+  ],
+  "author": "Apostrophe Technologies",
+  "license": "MIT",
+  "peerDependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "esm": "^3.2.25",
+    "markdown-it": "9.0.0 < 13.0.0",
+    "markdown-it-attrs": "^4.0.0",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-apostrophe": "^3.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "stylelint": "^13.7.1",
+    "stylelint-config-apostrophe": "^1.0.0"
+  }
+}
