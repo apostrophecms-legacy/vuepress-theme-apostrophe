@@ -1,10 +1,10 @@
 {
   "name": "vuepress-theme-apostrophe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vuepress theme for ApostropheCMS documentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint . && stylelint \"**/*.vue|**/*.styl\""
   },
   "keywords": [
     "vuepress",
@@ -16,6 +16,7 @@
   ],
   "author": "Apostrophe Technologies",
   "license": "MIT",
+  "repository": "https://github.com/apostrophecms/vuepress-theme-apostrophe",
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "vuepress-plugin-code-copy": "^1.0.6"
