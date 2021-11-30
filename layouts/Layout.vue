@@ -2,11 +2,10 @@
   <ParentLayout>
     <template #sidebar-bottom>
       <section v-if="$themeConfig && $themeConfig.latestVersionPromo"
-        class="layout-note"
+        class="layout__promo"
       >
-        <p>
-          <a href="https://v3.docs.apostrophecms.org/">Learn about Apostrophe 3. 🆕</a>
-        </p>
+        <span>🌟</span>
+        <a href="https://v3.docs.apostrophecms.org">Learn about Apostrophe 3.</a>
       </section>
     </template>
   </ParentLayout>
@@ -24,10 +23,19 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .layout-note
-    background-color: $badgeTipColor
-    padding 0.35rem 1rem 0.35rem 1.25rem
+  .layout__promo
+    display: inline-block;
+    margin-left: 0.75rem;
+    padding: 0.35rem 1rem .35rem 0.5rem;
+    border-radius: 10px;
+    background-color: #e3dbff;
+    font-size: 17px;
 
     a
-      color: white
+      display: inline
+      font-weight: 600
+      color: inherit
+
+    span
+      margin-right: 0.5rem
 </style>
