@@ -5,7 +5,7 @@
         class="layout__promo"
       >
         <span>🌟</span>
-        <a href="https://v3.docs.apostrophecms.org">Learn about Apostrophe 3.</a>
+        <a href="https://v3.docs.apostrophecms.org">Learn About Apostrophe 3</a>
       </section>
     </template>
   </ParentLayout>
